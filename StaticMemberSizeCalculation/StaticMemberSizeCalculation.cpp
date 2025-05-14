@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 class BankAccount {
 public:
@@ -9,7 +8,7 @@ public:
 
 int main() {
     BankAccount account1;
-    cout << sizeof(account1) << endl;
+    std::cout << sizeof(account1) << std::endl;
 
     return 0;
 }
